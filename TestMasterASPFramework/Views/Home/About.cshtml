@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@model TestMasterASPFramework.Models.ConfigModel
+
+<h3>Full secret : @Model.FullSecret</h3>
+<h3>Special parameter : @Model.SomeParameter</h3>
+
+
+<h2>ConnectionString</h2>
+<h3>String : @Model.ConnectionString.ConnectionString</h3>
+<h3>Provider : @Model.ConnectionString.ProviderName</h3>

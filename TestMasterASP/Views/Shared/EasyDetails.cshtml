@@ -1,0 +1,8 @@
+﻿@model TestMasterASP.Models.EasyModel
+
+@using TestMasterASP.App_Code
+@using Microsoft.AspNetCore.Html
+
+@(new HtmlString(String.Format(EasyExtensions.EasyHelper().Value, Model.somthEasy)))
+
+

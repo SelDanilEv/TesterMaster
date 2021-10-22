@@ -1,0 +1,8 @@
+﻿@model TestMasterASPFramework.Models.EasyModel
+
+@using TestMasterASPFramework.App_Code
+
+@(new HtmlString(String.Format(EasyExtensions.EasyHelper().ToHtmlString(), Model.somthEasy)))
+@EasyExtensions.EasyHelper()
+
+
