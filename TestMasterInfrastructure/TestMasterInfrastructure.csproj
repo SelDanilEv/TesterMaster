@@ -109,6 +109,8 @@
   <ItemGroup>
     <Compile Include="Models\ConnectionStringDto.cs" />
     <Compile Include="Models\InternalClass.cs" />
+    <Compile Include="Models\Types\Class1.cs" />
+    <Compile Include="Models\Types\Class2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wrappers\ConfigurationManagerResolver.cs" />
     <Compile Include="Wrappers\IConfigWrapper.cs" />
