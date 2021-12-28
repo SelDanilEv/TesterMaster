@@ -8,12 +8,13 @@
     using System.Threading.Tasks;
     using TesterMaster.Dictionary;
     using TesterMaster.FileSystem;
+    using TesterMaster.LINQ;
     using TesterMaster.Polly;
     using TestMasterInfrastructure.Interfaces;
 
     class Program
     {
-        static ITest Test = new TestDictionary();
+        static ITest Test = new TestLINQ();
 
         public static void Main()
         {
